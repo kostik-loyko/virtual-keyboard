@@ -1,0 +1,125 @@
+body {
+   font-weight: 600;
+   box-sizing: border-box;
+}
+
+.textarea {
+   display: block;
+   width: 800px;
+   height: 200px;
+   margin: 20px auto;
+}
+
+.keyboard {
+   background-color: rgb(208, 219, 219);
+   margin: 0 auto;
+   width: 772px;
+   border: 2px solid black;
+}
+
+.keys {
+   display: flex;
+   gap: 5px;
+   width: 790px;
+   list-style: none;
+   flex-wrap: wrap;
+   padding: 10px;
+}
+
+.key {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid black;
+   width: 40px;
+   height: 40px;
+   background-color: rgb(116, 101, 101);
+   border-radius: 4px;
+
+   &:nth-child(14) {
+      width: 109px;
+   }
+
+   &:nth-child(15) {
+      width: 50px;
+   }
+
+   &:nth-child(29) {
+      width: 50px;
+   }
+
+   &:nth-child(30) {
+      width: 99px;
+   }
+
+   &:nth-child(42) {
+      width: 99px;
+   }
+
+   &:nth-child(43) {
+      width: 99px;
+   }
+
+   &:nth-child(55) {
+      width: 99px;
+   }
+
+   &:nth-child(56) {
+      width: 60px;
+   }
+
+   &:nth-child(58) {
+      width: 50px;
+   }
+
+   &:nth-child(59) {
+      width: 304px;
+   }
+
+   &:nth-child(60) {
+      width: 50px;
+   }
+
+   &:nth-child(64) {
+      width: 50px;
+   }
+
+   &:nth-child(63) {
+      font-size: 1px;
+      background-image: url('../images/arrow.png');
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+   }
+
+   &:nth-child(62) {
+      font-size: 1px;
+      background-image: url('../images/arrow.png');
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      transform: rotate(90deg);
+   }
+
+   &:nth-child(61) {
+      font-size: 1px;
+      background-image: url('../images/arrow.png');
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      transform: rotate(180deg);
+   }
+
+   &:nth-child(54) {
+      font-size: 1px;
+      background-image: url('../images/arrow.png');
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      transform: rotate(-90deg);
+   }
+}
+
+.active {
+   background-color: #83ec68;
+}
