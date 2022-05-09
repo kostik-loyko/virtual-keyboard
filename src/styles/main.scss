@@ -17,6 +17,19 @@ body {
    border: 2px solid black;
 }
 
+.link {
+   display: block;
+   width: 200px;
+   margin: 20px auto;
+   color: #6852e7;
+   text-decoration: none;
+}
+
+.p {
+   margin: 20px auto;
+   width: 300px;
+}
+
 .keys {
    display: flex;
    gap: 5px;
